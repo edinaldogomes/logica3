@@ -1,0 +1,34 @@
+body{
+    font-size: 18px;
+}
+
+.divprincipal{
+    background-color: blue;
+    padding: 20px;
+    height: 50vh;
+    width: 50lh;
+}
+
+input{
+    padding: 5px;
+    border-radius: 4px;
+}
+
+#resultadosoma{
+    padding: 15px;
+}
+
+#botaosomar{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#botaosomar:active{
+    background-color: green;
+}
+
+#botaosomar:hover{
+    background-color: blueviolet;
+}
+
