@@ -32,10 +32,10 @@ document.addEventListener("DOMContentLoaded",function(){
     btnNovo.addEventListener("click", function(){
         const divF = document.createElement("div");
         divF.className="divFlutuante";
-        divF.innerHTML="
+        divF.innerHTML=`
             <input type="number" id="novonumero" placeholder="Informe um numero">
             <button id="novoBotao">Somar ao resultado</button>
-        ";
+        `;
         
         document.body.appendChild(divF);
 
